@@ -1,0 +1,15 @@
+%%-*- mode: erlang -*-
+{application, erocci_listener_xmpp,
+ [
+  {description, "erocci XMPP listener"},
+  {modules, []},
+  {vsn, "git"},
+  {applications, 
+   [
+    kernel, 
+    stdlib,
+    erim,
+    occi_authnz
+   ]},
+  {registered, []}
+ ]}.
